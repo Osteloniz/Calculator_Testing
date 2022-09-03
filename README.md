@@ -2,7 +2,7 @@
 
 ## O que o Projeto faz?
 
-  Proejeto realiza testes um situações em que se usa um código que simula uma calculadora, nessa branch é utilizado o Junit5. Testes realizados nas 4 operações matemáticas, recebdno dois valores de tipagem de int. Sendo testados alguns cenários. 
+  Proejeto realiza testes um situações em que se usa um código que simula uma calculadora, nessa branch é utilizado o Junit5. Testes realizados nas 4 operações matemáticas, recebendo dois valores de tipagem de int. Sendo testados alguns cenários. 
 
 ## Por que o projeto é útil?
 
