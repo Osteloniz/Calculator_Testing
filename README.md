@@ -2,7 +2,7 @@
 
 ## O que o Projeto faz?
 
-  Proejeto realiza testes um situações em que se usa um código que simula uma calculadora que faz a operação de numeros inteiros, recebendo dois valores, e assim realizando calculos das 4 oprações matemáticas. Sendo testados alguns cenários. 
+  Proejeto realiza testes um situações em que se usa um código que simula uma calculadora, nessa branch é utilizado o Junit5. Testes realizados nas 4 operações matemáticas, recebdno dois valores de tipagem de int. Sendo testados alguns cenários. 
 
 ## Por que o projeto é útil?
 
@@ -10,7 +10,7 @@
 
 ## Como acessar o projeto?
 
-  Clonar esse repositorio e abrir a IDE de sua preferencia, IDE utilizada para desenvolvimento (NetBeans)
+  Clonar esse repositorio e abrir a IDE de sua preferencia, IDE utilizada para desenvolvimento (Eclipse)
 
 ## Contato para ajuda com o projeto:
 
