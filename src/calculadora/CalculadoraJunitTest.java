@@ -11,9 +11,21 @@ class CalculadoraJunitTest {
 	@Test
 	public void SomarJunit() {
 		Calculadora calc = new Calculadora();
-		int soma = calc.somar(3, 7);
-
+		//Cenario de teste 1: soma de dois valores:
+		int soma = calc.somar(3, 7);	
 		Assert.assertEquals(10, soma);
+		
+		// Cenario de teste 2: soma de dois valores sendo um negativo:
+		soma = calc.somar(9, -7);
+		Assert.assertEquals(2, soma);
+
+		// Cenario de teste 3: soma de dois valores sendo ambos negativos:
+		soma = calc.somar(-9, -7);
+		Assert.assertEquals(-16, soma);
+
+		// Cenario de teste 2: soma de dois valores sendo um negativo em posição diferente:
+		soma = calc.somar(-9, 7);
+		Assert.assertEquals(-2, soma);
 	}
 
 	/*--------------------Subtração--------------------------*/
